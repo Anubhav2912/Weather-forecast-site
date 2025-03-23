@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i&display=swap&subset=latin-ext');
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("https://s6.gifyu.com/images/S6mtF.gif");/*radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    align: left;
+    height: 100%;
+}
+
+body, .buttonCheckWeather {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.earth {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  margin: 0.05em auto;
+  border-radius: 50%;
+  background-size: 630px;
+  animation: rotate 4s linear infinite;
+  transition: transform 200ms linear;
+  transform-style: preserve-3d;
+  box-shadow: inset 20px 0 80px 6px rgb(0,0,0);
+  color: #013220;
+}
+
+h1 {
+  position: relative;
+  height: 100px;
+  width: 300px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  text-align: left;
+  animation: rotate 1s infinite;
+}
+
+
+.buttonCheckWeather {
+    color: #2DE1C2;
+    border: 1px solid #FFFFFF;
+}
+
+.labelCityAndCountry {
+    font-size: 25px;
+}
+
+.labelHeading {
+    font-size: 50px;
+    color: #FFFFFF;
+    align: left;
+}
+
+.labelDeveloper {
+    font-size: 15px;
+    align: right;
+    color: #008000;
+}
+
+.comboCountry {
+    font-size: 25px;
+    align: left;
+    color: #ffffff;
+}
+
+.comboCity {
+    font-size: 25px;
+    align: left;
+    color: #ffffff;
+}
+
+.labelError {
+    font-size: 25px;
+    align: left;
+    color: #ff0000;
+}
+
+
+.labelReport, .labelLine {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.labelWind, .labelLocation {
+    color: #2DE1C2;
+}
+
+.labelCityAndCountry, .labelTemperature, .labelPressure, .labelWindSpeed, .labelWindDegrees, .labelLocationLongitude, .labelLocationLatitude {
+    color: #FFFFFF;
+}
+
+.v-reconnect-dialog {
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+
+
+.label3DGlobe {
+  width: 300px;
+  height: 300px;
+  background: url("C:\Users\anu29\Downloads\digital-earth-with-particles-background\SL.112119.25250.08.jpg");
+  border-radius: 50%;
+  background-size: 610px;
+  box-shadow: inset 8px 36px 80px 36px rgb(0, 0, 0), inset -6px 0 12px 4px rgba(255, 255, 255, 0.3);
+  animation-name: rotate;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotate;
+     -webkit-animation-duration: 12s;
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 610px 0px;
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    background-position: 0px 0px;
+  }
+  to {
+    background-position: 610px 0px;
+  }
+}
